@@ -1,3 +1,7 @@
+![npm](https://img.shields.io/npm/v/gyration_crustacean_mathlib)
+[![Coverage Status](https://coveralls.io/repos/github/DrakeVorndran/mathlib/badge.svg)](https://coveralls.io/github/DrakeVorndran/mathlib)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/DrakeVorndran/mathlib)
+[![Build Status](https://travis-ci.com/DrakeVorndran/mathlib.svg?branch=master)](https://travis-ci.com/DrakeVorndran/mathlib)
 # Mathlib
 This is just a collection of various math functions that are used frequently in projects
 

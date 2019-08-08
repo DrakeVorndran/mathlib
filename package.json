@@ -1,6 +1,6 @@
 {
   "name": "gyration_crustacean_mathlib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple math functions I feel like I write every project",
   "main": "umd/index.js",
   "module": "esm/index.js",
