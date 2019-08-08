@@ -1,0 +1,23 @@
+{
+  "name": "mathlib",
+  "version": "1.0.0",
+  "description": "simple math functions I feel like I write every project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrakeVorndran/mathlib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrakeVorndran/mathlib/issues"
+  },
+  "homepage": "https://github.com/DrakeVorndran/mathlib#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0"
+  }
+}
