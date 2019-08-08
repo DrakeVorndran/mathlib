@@ -14,9 +14,6 @@ const ceil = (num, place = 1) => {
 }
 
 const pad = (num, before = 0, after = 0) => {
-  // Questions
-  // what to do when more chars than in before or after
-  // what type to return
   let l = String(num).split('.')
   if (l.length === 1) {
     l.push('0')

@@ -40,6 +40,7 @@ test("Testing pad()", () => {
   expect(pad(9.12, 2, 4)).toBe("09.1200")
   expect(pad(1049.12, 3, 1)).toBe("1049.12")
   expect(pad(12, 2, 3)).toBe('12.000')
+  expect(pad(6.4)).toBe('6.4')
 })
 
 test("Testing degToRad()", () => {
