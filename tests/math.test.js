@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const {round, floor, ceil, pad, degToRad, radToDeg, toDollars, tax, calculateInterest, mortage, intToHex } = require('../index.js')
+const {round, floor, ceil, pad, degToRad, radToDeg, toDollars, tax, withTax, calculateInterest, mortage, intToHex } = require('../index.js')
 
 test('Sanity Check', () => {
   //this test should pass
@@ -64,6 +64,12 @@ test("Testing tax()", () => {
   expect(tax(5, 0.4)).toBe(2)
   expect(tax(10, 0.02)).toBe(.2)
   expect(tax(-12, .8)).toBe(-9.6)
+})
+
+test("Testing withTax()", () => {
+  expect(withTax(5, 0.4)).toBe(7)
+  expect(withTax(10, 0.02)).toBe(10.2)
+  expect(withTax(-12, .8)).toBe(-21.6)
 })
 
 test("Testing intrest()", () => {

@@ -4,6 +4,7 @@
   "description": "simple math functions I feel like I write every project",
   "main": "index.js",
   "scripts": {
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "test": "jest"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "devDependencies": {
     "eslint": "^6.1.0",
     "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "coveralls": "^3.0.6"
   }
 }
