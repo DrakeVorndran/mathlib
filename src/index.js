@@ -40,10 +40,10 @@ const tax = (num, rate) => {
 }
 
 const withTax = (num, rate) => {
-  return num + num * rate
+  return num + tax(num, rate)
 }
 
-const calculateInterest = function (total, year, rate) {
+const calculateInterest = (total, year, rate) => {
   var interest = rate / 100 + 1;
   return toDollars(total * Math.pow(interest, year))
 }
@@ -53,7 +53,7 @@ const mortage = (p, n, i) => {
 }
 
 const intToHex = (int) => {
-  return int.toString(16)
+  return "#" + int.toString(16)
 }
 
 

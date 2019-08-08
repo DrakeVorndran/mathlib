@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const {round, floor, ceil, pad, degToRad, radToDeg, toDollars, tax, withTax, calculateInterest, mortage, intToHex } = require('../index.js')
+const {round, floor, ceil, pad, degToRad, radToDeg, toDollars, tax, withTax, calculateInterest, mortage, intToHex } = require('../src/index.js/')
 
 test('Sanity Check', () => {
   //this test should pass
@@ -84,6 +84,6 @@ test("Testing mortage()", () => {
 })
 
 test("Testing intToHex", () => {
-  expect(intToHex(15)).toBe('f')
-  expect(intToHex(593)).toBe('251')
+  expect(intToHex(15)).toBe('#f')
+  expect(intToHex(593)).toBe('#251')
 })
